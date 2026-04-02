@@ -1,0 +1,14 @@
+[package]
+name = "ahci-nostd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Matt Gates <ridgecellrepair@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/suhteevah/ahci-nostd"
+description = "A no_std AHCI (SATA) driver for bare-metal Rust operating systems"
+keywords = ["ahci", "sata", "no_std", "embedded", "bare-metal"]
+categories = ["no-std", "hardware-support"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
